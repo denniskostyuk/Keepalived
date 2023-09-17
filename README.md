@@ -36,6 +36,12 @@
 •	На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 ![bash-скрипт](https://github.com/denniskostyuk/Keepalived/blob/main/check-nginx.sh)
+
 ![Конфигурационный файл keepalived](https://github.com/denniskostyuk/Keepalived/blob/main/keepalived.conf)
 
+###### Настроены:
+
+сервер-1 ip=192.168.0.205
+сервер-2 ip=192.168.0.210
+плавающий ip = 192.168.0.215
 
