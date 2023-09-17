@@ -47,19 +47,19 @@
 По умолчанию на плавающем IP открывается сервер-1:
 ![Скрин23](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_3.png)
 
-останавливаем nginx:
+останавливаем на сервер-1 nginx:
 ![Скрин24](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_4.png)
 
 На плавающем IP открывается сервер-2:
 ![Скрин25](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_5.png)
 
-стартуем nginx после остановки:
+стартуем на сервер-1 nginx после остановки:
 ![Скрин26](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_6.png)
 
 На плавающем IP снова открывается сервер-1:
 ![Скрин27](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_7.png)
 
-Теперь переименуем файл /var/www/html/index.nginx-debian.html:
+Теперь на сервер-1 переименуем файл /var/www/html/index.nginx-debian.html:
 ![Скрин28](https://github.com/denniskostyuk/Keepalived/blob/main/Task_2_8.png)
 
 На плавающем IP снова открывается сервер-2:
